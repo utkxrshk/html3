@@ -1,0 +1,65 @@
+.header {
+    background-color:rgb(10, 81, 163);
+    display: flex ;
+    justify-content: space-between;
+}
+.outer {
+
+    display: flex  ;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+body{
+    background-color: #808080  ;
+}
+
+h1
+{
+margin-left: 950px;
+}
+h2
+{
+margin-left: 900px;
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:red;
+}
+
+.contacts{
+    margin-right: 50px;
+}
+.contacts a {
+    margin-right: 20px;
+}
+
+.Game{
+position: relative;
+}
+.Game p{
+    position : absolute;
+    top :50%;
+    left :50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+
+}
+.Game:hover p{
+
+    opacity:1;
+}
+
+
+.Game:hover img{
+
+    opacity:0.3;
+}
